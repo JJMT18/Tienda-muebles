@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #93999e !important;
+}
+.bg-custom{
+    background-color: #2A3340;
+}
+.navbar-nav a{
+    color: #f7f7f7;
+    font-size:larger;
+}
+.navbar-nav a:hover{
+    color: #62656b;
+}
+/* Estilos de la sección de héroe */
+.hero {
+    position: relative;
+    height: 100vh; /* Esto hará que la sección ocupe el 100% de la altura del viewport */
+    background-image: url('./SRC/img/principal.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Color del texto */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500; /* Color del fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.Productos{
+    margin: 30px;
+    text-align: justify;
+    font-size: 25px;
+}
+.btn-primary{
+    background-color: #62656b !important;
+    border-color: #62656b !important;
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 10px;
+    align-items: center;
+}
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px; /* Agrega un margen para separar las tarjetas del contenido circundante */
+}
+
+.container-cards .card {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    max-width: 300px; /* Ancho máximo para evitar que las tarjetas se vuelvan demasiado anchas */
+    margin-bottom: 10px; /* Espacio entre las tarjetas */
+    
+}
+.card-body{
+    border-radius: 5px;
+    background-color: #ebecee;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+.columna {
+    flex: 1;
+    text-align: center;
+    padding: 0 15px; /* Espaciado entre columnas, ajusta según sea necesario */
+}
+.nosotros-container {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.zoom-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-card:hover {
+    transform: scale(1.1);
+}
